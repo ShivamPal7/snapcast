@@ -112,6 +112,12 @@ const UploadPage = () => {
         accessKey: videoAccessKey,
       } = await getVideoUploadUrl();
 
+      console.log("Video Upload Details:", {
+        videoId,
+        videoUploadUrl,
+        videoAccessKey,
+      });
+
       if (!videoUploadUrl || !videoAccessKey)
         throw new Error("Failed to get video upload credentials");
 

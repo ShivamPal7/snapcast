@@ -1,6 +1,6 @@
 {
-  "databaseURL": "https://Anil-Thapa-Magar-s-workspace-hjs5mv.eu-central-1.xata.sh/db/snap-cast",
+  "databaseURL": "https://Fake-Account-s-workspace-5saevf.us-east-1.xata.sh/db/snapcast:main",
   "codegen": {
-    "output": "src/xata.ts"
+    "output": "./xata.ts"
   }
 }
